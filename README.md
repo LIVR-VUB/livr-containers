@@ -9,7 +9,7 @@ Pre-built **Singularity/Apptainer containers** for reproducible bioimage analysi
 
 ---
 
-## 📦 Available Containers
+## Available Containers
 
 | Container | Version | Description | Size | Pull Command |
 |-----------|---------|-------------|------|--------------|
@@ -20,7 +20,7 @@ Pre-built **Singularity/Apptainer containers** for reproducible bioimage analysi
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Download a Container
 
@@ -62,7 +62,7 @@ singularity exec cellprofiler_latest.sif \
 
 ---
 
-## 📥 Download Script
+## Download Script
 
 Use the automated download script:
 
@@ -91,7 +91,7 @@ done
 
 ---
 
-## 📤 Upload Containers (Maintainers Only)
+## Upload Containers (Maintainers Only)
 
 ### Prerequisites
 
@@ -127,11 +127,11 @@ Use the automated upload script:
 ./upload_to_ghcr.sh
 ```
 
-> ⚠️ **Important**: Container names in GHCR must be **lowercase**!
+> **Important**: Container names in GHCR must be **lowercase**!
 
 ---
 
-## 🏗️ Building Containers
+## Building Containers
 
 ### From Definition File
 
@@ -167,7 +167,7 @@ From: cellprofiler/cellprofiler:4.2.6
 
 ---
 
-## 📚 Software Citations
+## Software Citations
 
 Please cite the original software when using these containers:
 
@@ -212,7 +212,7 @@ Please cite the original software when using these containers:
 
 ---
 
-## 📄 License
+## License
 
 Container configurations: **MIT License**
 
@@ -222,7 +222,7 @@ The packaged software retains its original licenses:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork this repository
 2. Create your container definition (`.def` file)
@@ -231,7 +231,7 @@ The packaged software retains its original licenses:
 
 ---
 
-## 📧 Contact
+## Contact
 
 **LIVR-VUB** - Liver Cell Biology Research Group  
 Vrije Universiteit Brussel (VUB)
