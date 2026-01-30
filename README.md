@@ -15,8 +15,8 @@ Pre-built **Singularity/Apptainer containers** for reproducible bioimage analysi
 |-----------|---------|-------------|------|--------------|
 | **cellprofiler** | 4.2.x | Cell image analysis | ~1.9 GB | `singularity pull oras://ghcr.io/livr-vub/cellprofiler:latest` |
 | **cellprofiler_426** | 4.2.6 | Cell image analysis (pinned) | ~1.5 GB | `singularity pull oras://ghcr.io/livr-vub/cellprofiler_426:latest` |
-| **cp2m_quant** | - | CellProfiler + Quantification | ~10 GB | `singularity pull oras://ghcr.io/livr-vub/cp2m_quant:latest` |
-| **svetlana** | - | Cellpose deep learning segmentation | ~8.4 GB | `singularity pull oras://ghcr.io/livr-vub/svetlana:latest` |
+| **cp2m_quant** | - | Cellpos-SAM + AICISImageIO | ~10 GB | `singularity pull oras://ghcr.io/livr-vub/cp2m_quant:latest` |
+| **svetlana** | - | NN based cell classification | ~8.4 GB | `singularity pull oras://ghcr.io/livr-vub/svetlana:latest` |
 
 ---
 
