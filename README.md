@@ -3,7 +3,8 @@
 [![GitHub Container Registry](https://img.shields.io/badge/GHCR-livr--vub-blue?logo=github)](https://github.com/orgs/LIVR-VUB/packages)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Pre-built **Singularity/Apptainer containers** for reproducible bioimage analysis on HPC clusters.
+Pre-built **Singularity/Apptainer containers** for reproducible bioimage analysis on VSC-HPC clusters. 
+**Important:** Some of the containers does not have a GUI and requires a run script for executing jobs on HPC. The runscripts are project specific and they are not provided here.
 
 > **Quick Start**: `singularity pull oras://ghcr.io/livr-vub/cellprofiler:latest`
 
