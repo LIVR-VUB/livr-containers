@@ -20,6 +20,8 @@ Pre-built **Singularity/Apptainer containers** for reproducible bioimage analysi
 | **svetlana** | - | NN based cell classification | ~8.4 GB | `singularity pull oras://ghcr.io/livr-vub/svetlana:latest` |
 | **cellpose4** | v4 | Cellpose-SAM with GUI support | ~10 GB | `singularity pull oras://ghcr.io/livr-vub/cellpose4:latest` |
 | **cellpose_cellprofiler** | 2 - 4.2.8 | Cellpose 2 with cellprofiler with GUI support | ~8 GB | `singularity pull oras://ghcr.io/livr-vub/Cellprofiler_cellpose:latest` |
+| **fiji_latest** | - | Fiji with GUI support | ~615 MB | `singularity pull oras://ghcr.io/livr-vub/fiji_latest:latest` |
+| **fiji_xpra** | - | Fiji with GUI support (Alternative) | ~919 MB | `singularity pull oras://ghcr.io/livr-vub/fiji_xpra:latest` |
 
 ---
 
