@@ -17,11 +17,14 @@ Pre-built **Singularity/Apptainer containers** for reproducible bioimage analysi
 | **cellprofiler** | 4.2.x | Cell image analysis | ~1.9 GB | `singularity pull oras://ghcr.io/livr-vub/cellprofiler:latest` |
 | **cellprofiler_426** | 4.2.6 | Cell image analysis (pinned) | ~1.5 GB | `singularity pull oras://ghcr.io/livr-vub/cellprofiler_426:latest` |
 | **cp2m_quant** | v4 | Cellpose-SAM + AICISImageIO (No GUI support) | ~10 GB | `singularity pull oras://ghcr.io/livr-vub/cp2m_quant:latest` |
+| **ilastik** | - | Ilastik with GPU support | ~9 GB | `singularity pull oras://ghcr.io/livr-vub/ilsatik:latest` |
 | **svetlana** | - | NN based cell classification | ~8.4 GB | `singularity pull oras://ghcr.io/livr-vub/svetlana:latest` |
 | **cellpose4** | v4 | Cellpose-SAM with GUI support | ~10 GB | `singularity pull oras://ghcr.io/livr-vub/cellpose4:latest` |
 | **cellpose_cellprofiler** | 2 - 4.2.8 | Cellpose 2 with cellprofiler with GUI support | ~8 GB | `singularity pull oras://ghcr.io/livr-vub/Cellprofiler_cellpose:latest` |
 | **fiji_latest** | - | Fiji with GUI support | ~615 MB | `singularity pull oras://ghcr.io/livr-vub/fiji_latest:latest` |
 | **fiji_xpra** | - | Fiji with GUI support (Alternative) | ~919 MB | `singularity pull oras://ghcr.io/livr-vub/fiji_xpra:latest` |
+| **pyscenic_scanpy** | - | For RNA seq data analysis | ~400 MB | `singularity pull oras://ghcr.io/livr-vub/pyscenic_scanpy:latest` |
+| **state** | - | State, a machine learning architecture that predicts perturbation effects  | ~20 GB | `singularity pull oras://ghcr.io/livr-vub/state:latest` |
 
 ---
 
