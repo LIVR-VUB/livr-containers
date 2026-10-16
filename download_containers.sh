@@ -19,6 +19,9 @@ declare -A CONTAINERS=(
     ["cellprofiler_426"]="CellProfiler v4.2.6 - Cell image analysis (pinned version)"
     ["cp2m_quant"]="CellProfiler + Custom quantification pipeline"
     ["svetlana"]="Cellpose - Deep learning cell segmentation"
+    ["ia-cytomining-v2-cellprofiler"]="IA-Cytomining v2: CellProfiler 4.2.8 (Cell Painting, JUMP-based)"
+    ["ia-cytomining-v2-analysis"]="IA-Cytomining v2: pe2loaddata, CytoTable, pycytominer"
+    ["ia-cytomining-v2-r"]="IA-Cytomining v2: optional R container"
 )
 
 # =============================================================================

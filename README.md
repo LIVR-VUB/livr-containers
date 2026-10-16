@@ -25,6 +25,13 @@ Pre-built **Singularity/Apptainer containers** for reproducible bioimage analysi
 | **fiji_xpra** | - | Fiji with GUI support (Alternative) | ~919 MB | `singularity pull oras://ghcr.io/livr-vub/fiji_xpra:latest` |
 | **pyscenic_scanpy** | - | For RNA seq data analysis | ~400 MB | `singularity pull oras://ghcr.io/livr-vub/pyscenic_scanpy:latest` |
 | **state** | - | State, a machine learning architecture that predicts perturbation effects  | ~20 GB | `singularity pull oras://ghcr.io/livr-vub/state:latest` |
+| **ia-cytomining-v2-cellprofiler** | 4.2.8 (tag 2026.10.16) | CellProfiler 4.2.8 for the [IA-Cytomining v2 (JUMP-based)](https://github.com/LIVR-VUB/IA-Cytomining-Template-P1-HPC-v2-JUMPbased) Cell Painting pipeline (No GUI support) | ~1.7 GB | `singularity pull oras://ghcr.io/livr-vub/ia-cytomining-v2-cellprofiler:2026.10.16` |
+| **ia-cytomining-v2-analysis** | tag 2026.10.16 | pe2loaddata, CytoTable, pycytominer, DuckDB for the same pipeline (Python 3.12) | ~0.9 GB | `singularity pull oras://ghcr.io/livr-vub/ia-cytomining-v2-analysis:2026.10.16` |
+| **ia-cytomining-v2-r** | tag 2026.10.16 | Optional R container of the same pipeline | ~0.6 GB | `singularity pull oras://ghcr.io/livr-vub/ia-cytomining-v2-r:2026.10.16` |
+
+> **IA-Cytomining v2 containers:** in that repository, `0.Prep/prep.sh` pulls them to the right
+> folders and checks them against the committed checksums. Use the dated tag (`2026.10.16`) for
+> reproducible runs; `latest` points to the same images for now.
 
 ---
 
